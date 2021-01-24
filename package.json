@@ -1,0 +1,25 @@
+{
+  "name": "nataliyali",
+  "version": "1.0.0",
+  "description": "Сайт репетитора",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MinorikVic/NataliyaLi.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MinorikVic/NataliyaLi/issues"
+  },
+  "homepage": "https://github.com/MinorikVic/NataliyaLi#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  },
+  "dependencies": {
+    "browser-sync": "^2.26.14-y.1"
+  }
+}
