@@ -1,3 +1,5 @@
+const {src, dest, watch} = require('gulp');
+const browserSync = require('browser-sync').create();
 const cssmin = require('gulp-cssmin');
 const rename = require('gulp-rename');
 const sass = require('gulp-sass');
