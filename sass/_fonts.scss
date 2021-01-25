@@ -1,4 +1,13 @@
 @font-face {
+    font-family: 'Quarion';
+    src:
+        url('fonts\Quarion-ExtraLight\Quarion-ExtraLight.woff2') format('woff2'),
+        url('fonts\Quarion-ExtraLight\Quarion-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
     font-family: 'Roboto Regular';
     src:
         url('../fonts\Roboto\Roboto-Regular.woff') format('woff'),
@@ -6,13 +15,4 @@
     font-weight: normal;
     font-style: normal;
     font-display: wrap;
-}
-
-@font-face {
-    font-family: 'Visuelt Pro';
-    src:
-        url('fonts\VisueltPro-Light\VisueltPro-Light.woff') format('woff'),
-        url('fonts\VisueltPro-Light\VisueltPro-Light.woff2') format('woff2');
-    font-weight: 300;
-    font-style: normal;
 }

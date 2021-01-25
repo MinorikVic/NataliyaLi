@@ -1,16 +1,16 @@
 @font-face {
+  font-family: 'Quarion';
+  src: url("fontsQuarion-ExtraLightQuarion-ExtraLight.woff2") format("woff2"), url("fontsQuarion-ExtraLightQuarion-ExtraLight.woff") format("woff");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
   font-family: 'Roboto Regular';
   src: url("../fontsRobotoRoboto-Regular.woff") format("woff"), url("../fontsRobotoRoboto-Regular.woff2") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: wrap;
-}
-
-@font-face {
-  font-family: 'Visuelt Pro';
-  src: url("fontsVisueltPro-LightVisueltPro-Light.woff") format("woff"), url("fontsVisueltPro-LightVisueltPro-Light.woff2") format("woff2");
-  font-weight: 300;
-  font-style: normal;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -409,7 +409,7 @@ template {
       -ms-flex-pack: center;
           justify-content: center;
   padding-top: 60px;
-  background: #000 url("../image/Rectangle 6.jpg") no-repeat;
+  background: url("../image/Rectangle 6.jpg") no-repeat;
   height: 70vh;
   color: #fff;
 }
@@ -465,7 +465,7 @@ template {
 }
 
 body {
-  font-family: 'Visuelt Pro', sans-serif;
+  font-family: 'Quarion', sans-serif;
   font-size: 20px;
 }
 /*# sourceMappingURL=style.css.map */
