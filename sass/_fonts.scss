@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Roboto Regular';
+    src:
+        url('../fonts\Roboto\Roboto-Regular.woff') format('woff'),
+        url('../fonts\Roboto\Roboto-Regular.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: wrap;
+}
+
+@font-face {
+    font-family: 'Visuelt Pro';
+    src:
+        url('fonts\VisueltPro-Light\VisueltPro-Light.woff') format('woff'),
+        url('fonts\VisueltPro-Light\VisueltPro-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+}
